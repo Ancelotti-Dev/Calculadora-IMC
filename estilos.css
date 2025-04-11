@@ -1,0 +1,46 @@
+body{
+    background: radial-gradient(circle, #ffffff, #000000);
+}
+label{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:  monospace;
+    font-size: 30px;
+ 
+    padding: 10px;
+    border-radius: 50px;
+}
+
+input[type="number"]{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    animation-duration: 0,3ms;
+    
+}
+input::placeholder{
+    font-size: 50%;
+    font-style: italic;
+    color: gray
+}
+button{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+#resultado{
+    font-size: 250%;
+    margin-top: 8%;
+    color:aliceblue
+    
+}
